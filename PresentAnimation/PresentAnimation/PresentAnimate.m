@@ -62,8 +62,8 @@
     UIView *fromView = fromVC.view;
     
     if (fromVC.isBeingDismissed) {
-        [UIView animateWithDuration:0.2 animations:^{
-            fromView.frame = CGRectMake(0, -fromView.frame.size.height, fromView.frame.size.width, fromView.frame.size.height);
+        [UIView animateWithDuration:0.25 animations:^{
+            fromView.frame = CGRectMake(0, fromView.frame.size.height, fromView.frame.size.width, fromView.frame.size.height);
         } completion:^(BOOL finished) {
             [transitionContext completeTransition:finished];
         }];
