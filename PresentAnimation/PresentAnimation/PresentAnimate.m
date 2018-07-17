@@ -12,6 +12,8 @@
 
 @property (nonatomic, assign) PresentAnimateType type;
 
+@property (nonatomic, strong) id<UIViewControllerContextTransitioning> trac;
+
 @end
 
 @implementation PresentAnimate
@@ -41,6 +43,7 @@
 }
 
 - (void)presentAnimate:(id<UIViewControllerContextTransitioning>)transitionContext  {
+    self.trac = transitionContext;
     UIViewController *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     UIViewController *toVC   = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
     UIView *fromView = fromVC.view;
@@ -68,7 +71,6 @@
             [transitionContext completeTransition:finished];
         }];
     }
-    
 }
 
 @end
