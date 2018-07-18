@@ -27,11 +27,14 @@
     [self.view addGestureRecognizer:tapG];
 }
 
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    NSLog(@"我要不见啦");
+}
+
 - (void)jump {
     [self presentViewController:ViewController2.new animated:YES completion:nil];
 }
-
-
 
 - (void)touchesed {
     NSLog(@"vc1被点击");
