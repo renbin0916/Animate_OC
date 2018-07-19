@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3E03B820FF1AA1007C18D4 /* UIApplication+RB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E03B720FF1AA1007C18D4 /* UIApplication+RB.m */; };
+		0F3E03BB20FF1AF5007C18D4 /* RBTouchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E03BA20FF1AF5007C18D4 /* RBTouchManager.m */; };
+		0F3E03BE20FF3684007C18D4 /* RBPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E03BD20FF3684007C18D4 /* RBPushAnimation.m */; };
 		0F5DF8EC20F8AD0B00E0E8D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5DF8EB20F8AD0B00E0E8D7 /* AppDelegate.m */; };
 		0F5DF8EF20F8AD0B00E0E8D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5DF8EE20F8AD0B00E0E8D7 /* ViewController.m */; };
 		0F5DF8F420F8AD0C00E0E8D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F5DF8F320F8AD0C00E0E8D7 /* Assets.xcassets */; };
@@ -15,6 +18,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F3E03B620FF1AA1007C18D4 /* UIApplication+RB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+RB.h"; sourceTree = "<group>"; };
+		0F3E03B720FF1AA1007C18D4 /* UIApplication+RB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RB.m"; sourceTree = "<group>"; };
+		0F3E03B920FF1AF5007C18D4 /* RBTouchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBTouchManager.h; sourceTree = "<group>"; };
+		0F3E03BA20FF1AF5007C18D4 /* RBTouchManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBTouchManager.m; sourceTree = "<group>"; };
+		0F3E03BC20FF3684007C18D4 /* RBPushAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBPushAnimation.h; sourceTree = "<group>"; };
+		0F3E03BD20FF3684007C18D4 /* RBPushAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBPushAnimation.m; sourceTree = "<group>"; };
 		0F5DF8E720F8AD0A00E0E8D7 /* PushAnimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushAnimate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F5DF8EA20F8AD0B00E0E8D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F5DF8EB20F8AD0B00E0E8D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +69,12 @@
 				0F5DF8EB20F8AD0B00E0E8D7 /* AppDelegate.m */,
 				0F5DF8ED20F8AD0B00E0E8D7 /* ViewController.h */,
 				0F5DF8EE20F8AD0B00E0E8D7 /* ViewController.m */,
+				0F3E03B620FF1AA1007C18D4 /* UIApplication+RB.h */,
+				0F3E03B720FF1AA1007C18D4 /* UIApplication+RB.m */,
+				0F3E03B920FF1AF5007C18D4 /* RBTouchManager.h */,
+				0F3E03BA20FF1AF5007C18D4 /* RBTouchManager.m */,
+				0F3E03BC20FF3684007C18D4 /* RBPushAnimation.h */,
+				0F3E03BD20FF3684007C18D4 /* RBPushAnimation.m */,
 				0F5DF8F320F8AD0C00E0E8D7 /* Assets.xcassets */,
 				0F5DF8F520F8AD0C00E0E8D7 /* LaunchScreen.storyboard */,
 				0F5DF8F820F8AD0C00E0E8D7 /* Info.plist */,
@@ -139,7 +154,10 @@
 			files = (
 				0F5DF8EF20F8AD0B00E0E8D7 /* ViewController.m in Sources */,
 				0F5DF8FA20F8AD0C00E0E8D7 /* main.m in Sources */,
+				0F3E03BE20FF3684007C18D4 /* RBPushAnimation.m in Sources */,
+				0F3E03B820FF1AA1007C18D4 /* UIApplication+RB.m in Sources */,
 				0F5DF8EC20F8AD0B00E0E8D7 /* AppDelegate.m in Sources */,
+				0F3E03BB20FF1AF5007C18D4 /* RBTouchManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

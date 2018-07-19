@@ -18,7 +18,7 @@
 - (instancetype)init {
     if (self = [super init]) {
         self.transitioningDelegate = self;
-//        self.modalPresentationStyle = UIModalPresentationCustom;
+        self.modalPresentationStyle = UIModalPresentationCustom;
     }
     return self;
 }
